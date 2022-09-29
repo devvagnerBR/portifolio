@@ -1,0 +1,13 @@
+.homepage_container {
+	height: calc(100vh - 5rem);
+	display: grid;
+	grid-template-rows: 2fr 1fr;
+}
+/* 
+.homepage_about_me {
+	background: blue;
+}
+
+.homepage_project_view {
+	background: tomato;
+} */

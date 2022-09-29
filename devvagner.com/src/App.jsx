@@ -1,9 +1,12 @@
 import styles from '../src/GlobalStyle.module.css'
+import Header from './Components/Header/Header';
+import Routers from './Routes/Routers';
 
 function App() {
   return (
     <div className={styles.App}>
-      <h1>DEVVAGNER.COM</h1>
+      <Header />
+      <Routers />
     </div>
   );
 }

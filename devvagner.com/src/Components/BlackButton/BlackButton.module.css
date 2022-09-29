@@ -1,0 +1,12 @@
+.btn {
+	height: 63px;
+	width: 190px;
+	font-size: 1.8rem;
+	text-align: center;
+	color: white;
+	background: black;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+}
