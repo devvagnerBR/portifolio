@@ -1,5 +1,6 @@
 import React from 'react'
 import AboutMe from '../../Components/AboutMe/AboutMe'
+import Footer from '../../Components/Footer/Footer'
 import ProjectsView from '../../Components/ProjectsView/ProjectsView'
 import styles from './HomePage.module.css'
 const HomePage = () => {
