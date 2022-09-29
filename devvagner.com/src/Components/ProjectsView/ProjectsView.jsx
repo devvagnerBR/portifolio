@@ -1,4 +1,5 @@
 import React from 'react'
+import BlackButton from '../BlackButton/BlackButton'
 import ProjectCard from '../ProjectCard/ProjectCard'
 import styles from './ProjectsView.module.css'
 
@@ -13,8 +14,10 @@ const ProjectsView = () => {
                 <ProjectCard />
                 <ProjectCard />
                 <ProjectCard />
-
             </div>
+            <div className={styles.see_more}>
+                    <BlackButton>Ver mais projetos</BlackButton>
+                </div>
         </div>
     )
 }

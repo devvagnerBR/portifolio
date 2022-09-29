@@ -20,7 +20,6 @@ const ProjectCard = () => {
                     armazenadas no memoria do navegador
                     Não somem ao atualizar a página</p>
             </div>
-
         </div>
     )
 }

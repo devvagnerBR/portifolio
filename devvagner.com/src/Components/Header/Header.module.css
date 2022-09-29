@@ -27,6 +27,9 @@
 	height: 100%;
 	gap: 3rem;
 }
+.header_middle h4{
+	cursor: pointer;
+}
 
 .header_right {
 	display: grid;
@@ -36,6 +39,7 @@
 .header_right img {
 	width: 25px;
 	height: 25px;
+	cursor: pointer;
 }
 
 .header_right_social {
@@ -52,6 +56,7 @@
 	height: auto;
 }
 .header_right_language {
+	cursor: pointer;
 	display: flex;
 	align-items: center;
 	justify-content: center;

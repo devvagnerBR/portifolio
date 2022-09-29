@@ -1,6 +1,5 @@
 .projects_view_container {
 	display: flex;
-
 	text-align: center;
 	flex-direction: column;
 	align-items: center;
@@ -30,8 +29,8 @@
 	gap: 20px;
 }
 
-/* 
+.see_more {
+	padding-top: 50px;
+	align-self: center;
+} 
 
-text
-project cards
-*/
