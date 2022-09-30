@@ -8,7 +8,6 @@ function App() {
     <div className={styles.App}>
       <Header />
       <Routers />
-      <Footer />
     </div>
   );
 }

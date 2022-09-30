@@ -1,11 +1,15 @@
 .header_container {
 	height: 5rem;
-	width: 100vw;
+	align-self: center;
+	justify-self: center;
+	width: 66vw;
+	max-width: 1050px;
+	background: white;
 	display: grid;
 	grid-template-columns: 10rem 1fr 10rem;
 	position: fixed;
 	top: 0;
-	background: white;
+
 	z-index: 1000;
 }
 .header_left {

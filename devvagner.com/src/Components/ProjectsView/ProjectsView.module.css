@@ -4,6 +4,8 @@
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
+	height: auto;
+
 }
 
 .project_text_one {
@@ -27,10 +29,12 @@
 	grid-template-columns: 1fr 1fr 1fr;
 	height: auto;
 	gap: 20px;
+	height: 500px;
 }
 
 .see_more {
-	padding-top: 50px;
-	align-self: center;
-} 
+	
 
+	padding-bottom: 60px;
+	align-self: center;
+}
