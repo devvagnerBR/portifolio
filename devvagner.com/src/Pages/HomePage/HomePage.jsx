@@ -48,8 +48,10 @@ const HomePage = () => {
                 <Button color={`button__dark`}>MAIS PROJETOS</Button>
             </section>
 
+
             <footer className={styles.homepage__footer}>
-                <p>DESENVOLVIDO POR DEVVAGNER</p>
+                <p>DESENVOLVIDO POR DEVVAGNER | TODOS OS DIREITOS RESERVADOS ® </p>
+
             </footer>
 
 

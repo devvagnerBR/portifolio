@@ -1,5 +1,6 @@
 .homepage__container {
-	background: var(--secondary);
+	display: flex;
+	flex-direction: column;
 	max-width: 100%;
 }
 
@@ -110,18 +111,19 @@
 	justify-content: center;
 	gap: 50px;
 	flex-wrap: wrap;
+	z-index: 1000;
 }
 
 .homepage__more_projects {
 	display: flex;
-
 	align-items: flex-end;
 	justify-content: center;
 	background: red;
 	max-width: 850px;
-	height: 70px;
+	width: 850px;
+	height: 60px;
 	margin: 0 auto;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 
 .homepage__footer {
@@ -134,4 +136,6 @@
 	color: var(--text-grey);
 	font-size: 0.85rem;
 	letter-spacing: 1px;
+	position: static;
+	bottom: 0;
 }

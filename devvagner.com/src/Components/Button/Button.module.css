@@ -20,7 +20,7 @@
 }
 
 .button__view_red {
-	height: 20px;
+	height: 40px;
 	width: 50%;
 	padding: 0px 15px;
 	cursor: pointer;
@@ -29,7 +29,7 @@
 }
 
 .button__view_dark {
-	height: calc(20px +2px);
+	height: 40px;
 	width: 50%;
 	padding: 0px 15px;
 	cursor: pointer;
