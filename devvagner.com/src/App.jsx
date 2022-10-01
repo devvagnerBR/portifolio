@@ -1,15 +1,13 @@
-import styles from '../src/GlobalStyle.module.css'
-import Footer from './Components/Footer/Footer';
-import Header from './Components/Header/Header';
-import Routers from './Routes/Routers';
-
+import React from "react";
+import styles from '../src/App.module.css'
+import Routers_ from "./Routers/Routers_";
 function App() {
   return (
     <div className={styles.App}>
-      <Header />
-      <Routers />
+      <Routers_ />
     </div>
   );
 }
 
 export default App;
+
