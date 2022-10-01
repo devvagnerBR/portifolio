@@ -4,6 +4,7 @@ import Header from '../../Components/Header/Header'
 import styles from './HomePage.module.css'
 import LINKEDIN from '../../Assets/in.svg'
 import GITHUB from '../../Assets//github.svg'
+import ProjectCard from '../../Components/Project Card/ProjectCard'
 const HomePage = () => {
     return (
         <div className={styles.homepage__container}>
@@ -24,17 +25,34 @@ const HomePage = () => {
                 <section className={styles.homepage__aboutme_right}>
                     <div className={styles.homepage__aboutme_right_text}>
                         <h3>Sou um desenvoledor <span>Front-End</span></h3>
-                        <h3>Moro atualmente no Rio de Janeiro/BR,</h3>
                         <h3>com foco no  <span>desenvolvimento web</span> e</h3>
-                        <h3>apaixonado por <span>UI | UX Design</span></h3>
+                        <h3>apaixonado por <span>UI | UX Design</span>, moro</h3>
+                        <h3>atualmente no Rio de Janeiro/BR,</h3>
+
+
                         <section className={styles.homepage__aboutme_right_social}>
                             <img src={LINKEDIN} alt="" />
                             <img src={GITHUB} alt="" />
                         </section>
                     </div>
-
                 </section>
             </div>
+            <section className={styles.homepage__cards}>
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+
+            </section>
+
+            <section className={styles.homepage__more_projects}>
+                <Button color={`button__dark`}>MAIS PROJETOS</Button>
+            </section>
+
+            <footer className={styles.homepage__footer}>
+                <p>DESENVOLVIDO POR DEVVAGNER</p>
+            </footer>
+
+
         </div>
     )
 }

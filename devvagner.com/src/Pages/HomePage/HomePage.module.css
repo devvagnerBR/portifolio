@@ -1,17 +1,40 @@
 .homepage__container {
 	background: var(--secondary);
-	height: 100vh;
-	padding: 0px 20px;
+	max-width: 100%;
 }
 
 .homepage__infos {
-	max-width: 1200px;
+	max-width: 900px;
 	margin: 0 auto;
 	flex-wrap: wrap;
-	min-height: 400px;
+	min-height: 350px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
+/* .ttt {
+	animation: animated-text 1s steps(20) 2s 1 normal both,
+		animated-cursor 200ms steps(20) infinite normal;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@keyframes animated-text {
+	from {
+		width: 0px;
+	}
+	to {
+		width: 350px;
+	}
+}
+
+@keyframes animated-cursor {
+	from {
+		border-right-color: white;
+	}
+	to {
+		border-right-color: transparent;
+	}
+} */
 
 .homepage__aboutme_left {
 	padding: 20px;
@@ -66,7 +89,7 @@
 }
 
 .homepage__aboutme_right_social {
-    gap: 10px;
+	gap: 10px;
 	cursor: pointer;
 	padding-top: 45px;
 	display: flex;
@@ -74,4 +97,41 @@
 	width: 100%;
 	align-items: flex-start;
 	justify-content: start;
+}
+
+/* CARDS */
+.homepage__cards {
+	max-width: 850px;
+	margin: 0 auto;
+	height: 300px;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	flex-wrap: wrap;
+}
+
+.homepage__more_projects {
+	display: flex;
+
+	align-items: flex-end;
+	justify-content: center;
+	background: red;
+	max-width: 850px;
+	height: 70px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.homepage__footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100px;
+	font-weight: 400;
+	color: var(--text-grey);
+	font-size: 0.85rem;
+	letter-spacing: 1px;
 }

@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header className={styles.header__container}>
             <section className={styles.header__logo}>
-                <h3>DE<span>VV</span></h3>
+                <h3>DE<span>VV</span>.</h3>
             </section>
             <section className={styles.header__links}>
                 <a href="#">Contato</a>

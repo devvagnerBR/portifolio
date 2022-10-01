@@ -1,6 +1,6 @@
 .header__container {
 	flex: 1;
-	max-width: 980px;
+	max-width: 850px;
 	margin: 0 auto;
 	height: 80px;
 	color: var(--text-white);

@@ -1,0 +1,44 @@
+/*
+W - 238px
+H - 270px
+*/
+
+.project_card__container {
+	flex: 1;
+	background: var(--text-dark);
+	display: flex;
+	max-width: 290px;
+	max-height: 290px;
+	min-height: 290px;
+    border: 1px;
+	padding: 10px;
+	border-radius: 5px;
+	flex-direction: column;
+	justify-content: space-evenly;
+	box-shadow: 5px -5px 26px #101010, -5px 5px 26px #1c1c1c;
+    border-left: 1px solid red;
+	border-right: 1px solid red;
+}
+
+.project_card__container h4 {
+	color: var(--text-white);
+}
+
+.project_card__container p {
+	font-size: 0.8rem;
+	color: var(--text-grey);
+}
+.project_card__img {
+}
+
+.project_card__img img {
+	max-width: 100%;
+	min-width: 220px;
+}
+
+
+.project_card__buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

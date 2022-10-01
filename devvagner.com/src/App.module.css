@@ -6,10 +6,10 @@
 	font-family: "Poppins", sans-serif;
 	font-weight: 500;
 }
-html,
-body {
-	height: 100vh;
-	width: 100vw;
+
+body,
+html {
+	background: var(--secondary);
 }
 
 :root {
@@ -24,4 +24,17 @@ body {
 
 	--white: #ffffff;
 	--dark: #000000;
+}
+
+::-webkit-scrollbar {
+	background: red;
+	width: 5px;
+}
+::-webkit-scrollbar-track {
+	background: var(--text-dark);
+	width: 5px;
+}
+::-webkit-scrollbar-thumb {
+	height: 20px;
+	background: var(--text-grey);
 }
