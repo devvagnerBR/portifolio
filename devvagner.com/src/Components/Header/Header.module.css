@@ -1,7 +1,7 @@
 .header__container {
 	max-width: 950px;
 	height: 80px;
-	width: 950px;
+	width: 930px;
 	color: var(--text-white);
 
 	align-items: center;
@@ -54,7 +54,7 @@
 	}
 
 	.header__logo {
-		order: 0;
+
 		display: flex;
 		width: 75%;
 		align-items: center;
