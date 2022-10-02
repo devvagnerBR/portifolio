@@ -33,7 +33,6 @@
 		align-items: center;
 		justify-content: space-around;
 		flex-wrap: wrap;
-
 		padding-top: 20px;
 		max-width: 400px;
 	}
@@ -51,9 +50,15 @@
 
 	.header__button {
 		order: -3;
+		display: none;
 	}
 
 	.header__logo {
-		order: -3;
+		order: 0;
+		display: flex;
+		width: 75%;
+		align-items: center;
+		justify-content: center;
+		font-size: 30px;
 	}
 }
