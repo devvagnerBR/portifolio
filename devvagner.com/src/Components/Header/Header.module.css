@@ -26,7 +26,7 @@
 	color: var(--text-white);
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
 	.header__container {
 		display: flex;
 		flex-direction: row;

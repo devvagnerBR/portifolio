@@ -142,7 +142,7 @@
 	bottom: 0;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
 	/* .homepage__container{
 		width: 100vw;
 	} */
@@ -205,7 +205,7 @@
 	}
 
 	.homepage__footer {
-		max-width: 380px;
+		max-width: 330px;
 		display: flex;
 		align-items: center;
 		justify-content: center;

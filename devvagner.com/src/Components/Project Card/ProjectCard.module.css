@@ -10,14 +10,14 @@ H - 270px
 	max-width: 290px;
 	max-height: 290px;
 	min-height: 290px;
-    border: 1px;
+	border: 1px;
 	padding: 10px;
 	border-radius: 5px;
 	flex-direction: column;
 	justify-content: space-evenly;
 	box-shadow: 5px -5px 26px #101010, -5px 5px 26px #1c1c1c;
-    border-left: 1px solid red;
-	border-right: 1px solid red;
+	border-left: 1px solid var(--text-red);
+	border-right: 1px solid var(--text-red);
 }
 
 .project_card__container h4 {
@@ -36,9 +36,21 @@ H - 270px
 	min-width: 220px;
 }
 
-
 .project_card__buttons {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+@media (max-width: 450px) {
+	.project_card__buttons {
+		flex: 1;
+	}
+
+	.project_card__container {
+		height: 400px;
+		min-height: 320px;
+		border-bottom: 4px solid var(--text-red);
+		border-top: 3px solid var(--text-red);
+	}
 }
