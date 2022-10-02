@@ -13,9 +13,12 @@ const HomePage = () => {
 
                 <section className={styles.homepage__aboutme_left}>
                     <div className={styles.homepage__aboutme_left_text}>
-                        <h2>Olá, eu sou o</h2>
-                        <h2>Wagner Guimarães</h2>
-                        <h4>Desenvolvedor Front-End</h4>
+
+                        <h2 className={styles.text1}>Olá, eu sou o</h2>
+                        <h2 className={styles.text2}>Wagner Guimarães</h2>
+                        <h4 className={styles.text3}>Desenvolvedor Front-End</h4>
+
+
                         <section className={styles.homepage__aboutme_left_buttons}>
                             <Button color={`button__red`} >Currículo</Button>
                             <Button color={`button__dark`}>Projetos</Button>

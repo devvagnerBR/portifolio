@@ -39,3 +39,18 @@ html {
 	height: 20px;
 	background: var(--text-grey);
 }
+
+
+
+.animeLeft {
+	opacity: 0;
+	transform: translateX(-20px);
+	animation: animeLeft 0.9s forwards;
+}
+
+@keyframes animeLeft {
+	to {
+		opacity: 1;
+		transform: initial;
+	}
+}

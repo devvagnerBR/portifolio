@@ -2,13 +2,17 @@
 	display: flex;
 	flex-direction: column;
 	max-width: 100%;
+	align-items: center;
 }
 
 .homepage__infos {
-	max-width: 900px;
+	max-width: 950px;
+
 	margin: 0 auto;
 	flex-wrap: wrap;
-	min-height: 350px;
+	min-height: 250px;
+	padding-top: 50px;
+	padding-bottom: 60px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
@@ -41,24 +45,22 @@
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	align-items: flex-end;
+	justify-content: start;
 }
 
-.homepage__aboutme_left_text h2 {
+.text1 {
 	font-size: 2.5rem;
 	line-height: 1;
-}
-
-.homepage__aboutme_left_text :nth-child(1) {
 	color: var(--text-white);
 }
 
-.homepage__aboutme_left_text h2:nth-child(2) {
+.text2 {
 	color: var(--text-red);
+	font-size: 2.5rem;
 }
 
-.homepage__aboutme_left_text h4 {
+.text3 {
 	padding-bottom: 20px;
 	padding-top: 5px;
 	color: var(--text-grey);
@@ -74,7 +76,7 @@
 	padding: 20px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
 	flex-direction: column;
 }
 
@@ -102,7 +104,7 @@
 
 /* CARDS */
 .homepage__cards {
-	max-width: 850px;
+	max-width: 950px;
 	margin: 0 auto;
 	height: 300px;
 	flex: 1;
@@ -119,8 +121,8 @@
 	align-items: flex-end;
 	justify-content: center;
 	background: red;
-	max-width: 850px;
-	width: 850px;
+	max-width: 950px;
+	width: 950px;
 	height: 60px;
 	margin: 0 auto;
 	margin-bottom: 50px;
@@ -138,4 +140,77 @@
 	letter-spacing: 1px;
 	position: static;
 	bottom: 0;
+}
+
+@media (max-width: 420px) {
+	/* .homepage__container{
+		width: 100vw;
+	} */
+
+	.homepage__infos {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.homepage__aboutme_left {
+		align-items: center;
+		justify-content: center;
+	}
+
+	.homepage__aboutme_left_text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		max-width: 380px;
+		padding: 0px;
+	}
+	.text1 {
+		font-size: 1.8rem;
+
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: start;
+	}
+
+	.text2 {
+		font-size: 1.9rem;
+	}
+	.text3 {
+		display: flex;
+		align-items: start;
+		justify-content: start;
+		width: 100%;
+	}
+
+	.homepage__aboutme_right {
+		font-size: 0.9rem;
+		text-align: start;
+		max-width: 380px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.homepage__aboutme_right_social {
+		padding-top: 10px;
+		display: flex;
+		align-items: center;
+	}
+
+	.homepage__more_projects {
+		display: none;
+	}
+
+	.homepage__footer {
+		max-width: 380px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+		width: 100%;
+	}
 }
