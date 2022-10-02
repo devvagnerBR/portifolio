@@ -1,12 +1,10 @@
 .header__container {
-	max-width: 950px;
+	max-width: 1050px;
 	height: 80px;
-	width: 930px;
 	color: var(--text-white);
-
 	align-items: center;
 	display: grid;
-	grid-template-columns: 0.5fr 3fr 0fr;
+	grid-template-columns: 1fr 4.7fr 1fr;
 	flex-wrap: wrap;
 }
 .header__logo span {
@@ -54,7 +52,6 @@
 	}
 
 	.header__logo {
-
 		display: flex;
 		width: 75%;
 		align-items: center;

@@ -44,7 +44,7 @@ H - 270px
 	justify-content: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
 	.project_card__buttons {
 		flex: 1;
 	}

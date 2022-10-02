@@ -3,10 +3,11 @@
 	flex-direction: column;
 	max-width: 100%;
 	align-items: center;
+	padding: 20px;
 }
 
 .homepage__infos {
-	max-width: 950px;
+	max-width: 980px;
 	margin: 0 auto;
 	flex-wrap: wrap;
 	min-height: 250px;
@@ -14,31 +15,8 @@
 	padding-bottom: 60px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	gap: 150px;
 }
-/* .ttt {
-	animation: animated-text 1s steps(20) 2s 1 normal both,
-		animated-cursor 200ms steps(20) infinite normal;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
-@keyframes animated-text {
-	from {
-		width: 0px;
-	}
-	to {
-		width: 350px;
-	}
-}
-
-@keyframes animated-cursor {
-	from {
-		border-right-color: white;
-	}
-	to {
-		border-right-color: transparent;
-	}
-} */
 
 .homepage__aboutme_left {
 	padding: 20px;
@@ -62,10 +40,13 @@
 .text3 {
 	padding-bottom: 20px;
 	padding-top: 5px;
-	color: var(--text-grey);
+	color: var(--text-light);
 	font-weight: 400;
 }
 
+.homepage__aboutme_left_text {
+	width: 400px;
+}
 .homepage__aboutme_left_buttons {
 	display: flex;
 	gap: 20px;
@@ -121,7 +102,7 @@
 	justify-content: center;
 	background: red;
 	max-width: 950px;
-	width: 950px;
+	width: 100%;
 	height: 60px;
 	margin: 0 auto;
 	margin-bottom: 50px;
@@ -139,6 +120,77 @@
 	letter-spacing: 1px;
 	position: static;
 	bottom: 0;
+}
+/* 
+	max-width: 980px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	min-height: 250px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 150px;
+
+*/
+@media (max-width: 1000px) {
+	.homepage__infos {
+		max-width: 1000px;
+		gap: 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.homepage__aboutme_left {
+		display: flex;
+		max-width: 80vw;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.text1 {
+		display: flex;
+		align-items: center;
+		justify-content: start;
+		text-align: center;
+	}
+
+	.homepage__aboutme_right {
+		padding: 0px;
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.homepage__aboutme_right_text {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+		justify-content: center;
+	}
+	.homepage__aboutme_right_text h3 {
+		font-size: 1.3rem;
+	}
+
+	.homepage__aboutme_right_social {
+		align-items: end;
+		display: flex;
+		justify-content: end;
+		padding-top: 20px;
+	}
+
+	.homepage__cards {
+		max-width: 600px;
+	}
+
+	.homepage__more_projects {
+		max-width: 300px;
+		margin-top: 50px;
+	}
 }
 
 @media (max-width: 600px) {
@@ -163,14 +215,14 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		max-width: 380px;
+		max-width: 350px;
 		padding: 0px;
 	}
 	.text1 {
 		font-size: 1.8rem;
 
 		display: flex;
-		width: 100%;
+		width: 85%;
 		align-items: center;
 		justify-content: start;
 	}
@@ -182,13 +234,27 @@
 		display: flex;
 		align-items: start;
 		justify-content: start;
-		width: 100%;
+		width: 85%;
+	}
+	.homepage__aboutme_right_text {
+		max-width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+		justify-content: center;
+	}
+	.homepage__aboutme_right_text h3 {
+		font-size: 1rem;
+	}
+
+	.homepage__cards {
+		max-width: 400px;
 	}
 
 	.homepage__aboutme_right {
-		font-size: 0.9rem;
+		font-size: 0.8rem;
 		text-align: start;
-		max-width: 380px;
+		max-width: 330px;
 		align-items: center;
 		justify-content: center;
 	}
@@ -213,3 +279,39 @@
 		width: 100%;
 	}
 }
+/* 
+@media (max-width: 375px) {
+	.homepage__aboutme_left {
+		max-width: 80vw;
+	}
+	.homepage__aboutme_left_text {
+		max-width: 80vw;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.homepage__aboutme_left_buttons {
+		max-width: 80vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.text1 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+	.text2 {
+		font-size: 1.4rem;
+		text-align: center;
+	}
+	.homepage__infos {
+		max-width: 80vw;
+	}
+} */
