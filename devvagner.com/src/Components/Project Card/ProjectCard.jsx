@@ -11,7 +11,7 @@ const ProjectCard = () => {
                 <img src={PROONE} alt="" />
             </div>
 
-            <h4>devvagnercom</h4>
+            <h4>devvagner.com</h4>
             <p>Tecnologías: HTML | CSS | REACT.JS</p>
             <div className={styles.project_card__buttons}>
                 <Button color={`button__view_red`} >LINK</Button>
