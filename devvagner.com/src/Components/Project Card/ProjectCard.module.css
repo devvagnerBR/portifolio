@@ -16,8 +16,10 @@ H - 270px
 	flex-direction: column;
 	justify-content: space-evenly;
 	box-shadow: 5px -5px 26px #101010, -5px 5px 26px #1c1c1c;
-	border-left: 1px solid var(--text-red);
-	border-right: 1px solid var(--text-red);
+	border-left: 1px solid var(--text-grey);
+	border-right: 1px solid var(--text-grey);
+	border-top: 3px solid var(--text-grey);
+	border-bottom: 2px solid var(--text-grey);
 }
 
 .project_card__container h4 {
