@@ -28,7 +28,7 @@ const HomePage = () => {
                 <section className={styles.homepage__aboutme_right}>
                     <div className={styles.homepage__aboutme_right_text}>
                         <h3>Sou um desenvoledor <span>Front-End</span></h3>
-                        <h3>com foco no  <span>desenvolvimento web</span> e</h3>
+                        <h3>com foco no  <span>desenvolvimento web </span> e</h3>
                         <h3>apaixonado por <span>UI | UX Design</span>, moro</h3>
                         <h3>atualmente no Rio de Janeiro/BR,</h3>
 
