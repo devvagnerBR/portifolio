@@ -1,5 +1,5 @@
 
-# SITE PORTFÓLIO
+# SITE PORTFÓLIO [ainda em construção]
 
 Desenvolvimento do meu próprio site Portfólio 
 
