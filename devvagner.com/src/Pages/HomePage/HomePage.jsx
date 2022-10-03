@@ -5,14 +5,17 @@ import styles from './HomePage.module.css'
 import LINKEDIN from '../../Assets/in.svg'
 import GITHUB from '../../Assets//github.svg'
 import ProjectCard from '../../Components/Project Card/ProjectCard'
+import { useNavigate } from 'react-router-dom'
+import { GO_TO_PROJECTS, GO_TO_RESUME } from '../../Routers/Navigator'
 
 const HomePage = () => {
+    const navigate = useNavigate()
     return (
         <div className={styles.homepage__container}>
             <Header />
             <div className={styles.homepage__infos}>
 
-                <section className={styles.homepage__aboutme_left}>
+                <section id='about-me' className={styles.homepage__aboutme_left}>
                     <div className={styles.homepage__aboutme_left_text}>
 
                         <h2 className={styles.text1}>Olá, eu sou o</h2>
@@ -21,8 +24,8 @@ const HomePage = () => {
 
 
                         <section className={styles.homepage__aboutme_left_buttons}>
-                            <Button color={`button__red`} >Currículo</Button>
-                            <Button color={`button__dark`}>Projetos</Button>
+                            <Button onClick={() => GO_TO_RESUME( navigate )} color={`button__red`} >Currículo</Button>
+                            <Button onClick={() => GO_TO_PROJECTS( navigate )} color={`button__dark`}>Projetos</Button>
                         </section>
                     </div>
                 </section>
@@ -49,7 +52,7 @@ const HomePage = () => {
             </section>
 
             <section className={styles.homepage__more_projects}>
-                <Button color={`button__dark`}>MAIS PROJETOS</Button>
+                <Button onClick={() => GO_TO_PROJECTS( navigate )} color={`button__dark`}>MAIS PROJETOS</Button>
             </section>
 
 

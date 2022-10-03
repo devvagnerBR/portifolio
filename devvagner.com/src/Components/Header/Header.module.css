@@ -9,6 +9,11 @@
 }
 .header__logo span {
 	color: var(--text-red);
+	cursor: pointer;
+}
+
+.header__logo h3 {
+	color: var(--text-white);
 }
 
 .header__links {
