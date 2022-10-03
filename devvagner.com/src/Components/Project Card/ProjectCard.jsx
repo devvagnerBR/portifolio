@@ -6,13 +6,16 @@ import Button from '../Button/Button'
 
 const ProjectCard = () => {
     return (
-        <div className={styles.project_card__container}>
+        <div className={`${styles.project_card__container} ${styles.container__}`}>
             <div className={styles.project_card__img}>
                 <img src={PROONE} alt="" />
             </div>
 
-            <h4>devvagner.com</h4>
-            <p>Tecnologías: HTML | CSS | REACT.JS</p>
+            <section className={styles.project_card__tec_info}>
+                <h4>devvagner.com</h4>
+                <p>Tecnologías: <span> HTML | CSS | REACT.JS </span></p>
+            </section>
+
             <div className={styles.project_card__buttons}>
                 <Button color={`button__view_red`} >LINK</Button>
                 <Button color={`button__view_dark`} >GITHUB</Button>
@@ -24,3 +27,5 @@ const ProjectCard = () => {
 }
 
 export default ProjectCard
+
+

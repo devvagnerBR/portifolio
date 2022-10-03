@@ -73,7 +73,6 @@
 
 .homepage__aboutme_right_social {
 	gap: 10px;
-	cursor: pointer;
 	padding-top: 45px;
 	display: flex;
 	flex-direction: row;
@@ -81,7 +80,20 @@
 	align-items: flex-start;
 	justify-content: start;
 }
+.homepage__aboutme_right_social img {
+	width: 40px;
+	cursor: pointer;
+}
 
+.homepage__aboutme_right_social a:hover::after {
+	content: "";
+	display: block;
+	align-self: center;
+	width: 37px;
+	height: 2px;
+	background: white;
+	transition: ease-in-out 2.5s;
+}
 /* CARDS */
 .homepage__cards {
 	max-width: 950px;

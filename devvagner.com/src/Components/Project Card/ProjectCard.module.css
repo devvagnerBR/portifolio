@@ -8,18 +8,30 @@ H - 270px
 	background: var(--text-dark);
 	display: flex;
 	max-width: 290px;
-	max-height: 290px;
-	min-height: 290px;
+	max-height: 350px;
+	min-height: 330px;
 	border: 1px;
 	padding: 10px;
 	border-radius: 5px;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	box-shadow: 5px -5px 26px #101010, -5px 5px 26px #1c1c1c;
 	border-left: 1px solid var(--text-grey);
 	border-right: 1px solid var(--text-grey);
 	border-top: 3px solid var(--text-grey);
 	border-bottom: 2px solid var(--text-grey);
+}
+
+.container__ {
+	-webkit-tap-highlight-color: transparent;
+	transform: scale(1);
+	cursor: pointer;
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container__:hover {
+	transform: scale(1.05);
+	transition: ease-in-out 0.25s;
 }
 
 .project_card__container h4 {
@@ -42,8 +54,19 @@ H - 270px
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	gap: 20px;
+}
+.project_card__tec_info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 50px;
 }
 
+.project_card__tec_info span {
+	color: var(--text-light);
+	padding-left: 10px;
+}
 @media (max-width: 600px) {
 	.project_card__buttons {
 		flex: 1;

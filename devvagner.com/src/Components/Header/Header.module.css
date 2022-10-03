@@ -17,10 +17,17 @@
 	justify-content: center;
 	gap: 20px;
 }
+
+.header__links a:hover {
+	border-bottom: 2px solid white;
+	color: var(--text-light);
+	padding-bottom: 4px;
+}
 .header__links a {
 	display: flex;
 	font-weight: 400;
 	font-size: 1rem;
+
 	color: var(--text-white);
 }
 

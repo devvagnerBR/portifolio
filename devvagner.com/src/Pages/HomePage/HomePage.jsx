@@ -5,6 +5,7 @@ import styles from './HomePage.module.css'
 import LINKEDIN from '../../Assets/in.svg'
 import GITHUB from '../../Assets//github.svg'
 import ProjectCard from '../../Components/Project Card/ProjectCard'
+
 const HomePage = () => {
     return (
         <div className={styles.homepage__container}>
@@ -34,8 +35,8 @@ const HomePage = () => {
 
 
                         <section className={styles.homepage__aboutme_right_social}>
-                            <img src={LINKEDIN} alt="" />
-                            <img src={GITHUB} alt="" />
+                            <a target="_blank" href="https://www.linkedin.com/in/wagner-guimar%C3%A3es-709b66236/"> <img src={LINKEDIN} alt="" /> </a>
+                            <a target="_blank" href="https://github.com/Wagnerluizsg ">  <img src={GITHUB} alt="" /></a>
                         </section>
                     </div>
                 </section>
